@@ -1,0 +1,57 @@
+#videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
+.video-player{
+    background-color: black;
+    width: 100%;
+}
+
+#video-wrapper{
+    position: relative;
+}
+
+#waiting{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 240px;
+    height: 40px;
+
+}
+
+#answer{
+    
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card:hover {
+    background-color: #f0f0f0;
+}
+
+.call-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
